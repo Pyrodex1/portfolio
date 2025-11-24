@@ -50,7 +50,7 @@ export default function Hero() {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
           <button
-            onClick={() => scrollToSection('about')}
+            onClick={() => window.open('https://docs.google.com/document/d/e/2PACX-1vQSq5iV2ZiaGGSW2dkAJqamkx00qt6I_-78PfTDRWPBZccT9h2qXvpz6diSKE4KLhLxoImU94YGFlGD/pub', '_blank', 'noopener,noreferrer')}
             className="group flex items-center gap-3 px-8 py-4 bg-dark-cyan text-dark-slate font-semibold rounded-lg hover:bg-opacity-90 transition-all duration-300 transform hover:scale-105"
           >
             <FileText size={20} />
