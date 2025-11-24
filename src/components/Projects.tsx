@@ -44,7 +44,7 @@ const projects: Project[] = [
     title: "E-Commerce Catalog",
     description: "Catálogo e-commerce completo construido con Vue.js 3 y TypeScript. para demostracion de habilidades frontend con gestión de estado moderna y UX optimizada.",
     technologies: ["Vue.js 3", "TypeScript", "Pinia", "Tailwind CSS", "Vite", "Vue Router"],
-    demoUrl: "https://ecommerce-frontend-n5ij.vercel.app/",
+    demoUrl: "https://ecommerce-frontend-phi-eight.vercel.app/",
     codeUrl: "https://github.com/Pyrodex1/ecommerce-frontend",
     icon: <GraduationCap className="text-dark-cyan" size={32} />,
     highlights: [
