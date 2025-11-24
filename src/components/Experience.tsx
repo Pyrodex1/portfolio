@@ -63,7 +63,7 @@ export default function Experience() {
           </h2>
           <button
             onClick={() => setIsExpanded(!isExpanded)}
-            className="flex items-center gap-2 mx-auto px-6 py-3 bg-dark-cyan text-dark-slate font-semibold rounded-lg hover:bg-opacity-90 transition-all duration-300"
+            className="flex items-center gap-2 mx-auto px-6 py-3 bg-dark-cyan text-dark-slate font-semibold rounded-lg hover:bg-opacity-90 transition-all duration-300 animate-bounce"
           >
             {isExpanded ? 'Ocultar Experiencia' : 'Ver Experiencia Completa'}
             {isExpanded ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
