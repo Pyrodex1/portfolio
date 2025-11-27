@@ -1,6 +1,6 @@
 'use client'
 
-import { ExternalLink, Github, Truck, GraduationCap, Gamepad2, ClipboardList, Linkedin, Mail } from 'lucide-react'
+import { ExternalLink, Github, Truck, GraduationCap, Gamepad2, ClipboardList, Linkedin, Mail, Zap } from 'lucide-react'
 import { useState } from 'react'
 
 interface Project {
@@ -66,6 +66,20 @@ const projects: Project[] = [
       "Interfaz responsive con búsqueda inteligente y autocompletado en tiempo real",
       "Automatización completa del flujo de pedidos desde captura hasta entrega",
       "Solución que incrementó eficiencia operativa de vendedores"
+    ]
+  },
+  {
+    title: "Pokédex",
+    description: "Pokédex interactiva construida con React y JavaScript, featuring efectos glassmorphism modernos y integración completa con PokeAPI para datos en tiempo real.",
+    technologies: ["React", "JavaScript", "Tailwind CSS", "PokeAPI", "CSS3", "Responsive Design"],
+    demoUrl: "https://pokedex-nine-psi.vercel.app/",
+    codeUrl: "https://github.com/Pyrodex1/Pokedex",
+    icon: <Zap className="text-dark-cyan" size={32} />,
+    highlights: [
+      "Diseño glassmorphism con efectos de vidrio modernos usando backdrop-filter",
+      "Búsqueda inteligente por nombre o ID con integración completa de PokeAPI",
+      "Estadísticas visuales con barras de estadisticas animadas y colores dinámicos por tipo",
+      "Interfaz responsive mobile-first con animaciones CSS suaves y loading states"
     ]
   }
 ]
