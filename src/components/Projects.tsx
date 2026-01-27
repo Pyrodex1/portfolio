@@ -1,6 +1,6 @@
 'use client'
 
-import { ExternalLink, Github, Truck, GraduationCap, Gamepad2, ClipboardList, Linkedin, Mail, Zap } from 'lucide-react'
+import { ExternalLink, Github, Truck, GraduationCap, Gamepad2, ClipboardList, Linkedin, Mail, Zap, MessageCircle, Server } from 'lucide-react'
 import { useState } from 'react'
 
 interface Project {
@@ -66,6 +66,34 @@ const projects: Project[] = [
       "Interfaz responsive con búsqueda inteligente y autocompletado en tiempo real",
       "Automatización completa del flujo de pedidos desde captura hasta entrega",
       "Solución que incrementó eficiencia operativa de vendedores"
+    ]
+  },
+  {
+    title: "ListoPedido",
+    description: "Sistema de catálogos digitales con pedidos vía WhatsApp para el mercado venezolano.",
+    technologies: ["Next.js 15", "Tailwind CSS", "Shadcn/UI", "Supabase", "PostgreSQL", "Zustand", "Zod"],
+    demoUrl: "https://listo-pedidos.vercel.app/",
+    icon: <MessageCircle className="text-dark-cyan" size={32} />,
+    highlights: [
+      "Catálogo público por tienda con rutas dinámicas por slug",
+      "Dashboard para vendedores: productos, pedidos y configuración de tienda",
+      "Pedido vía WhatsApp con mensaje autogenerado desde el carrito",
+      "Subida de imágenes a Supabase Storage (productos y logo)",
+      "Tasa BCV (USD/VES) con cache para mostrar precios en USD y Bs"
+    ]
+  },
+  {
+    title: "BCV-API (rates-api)",
+    description: "API en Node.js + Express para consultar tasas oficiales del BCV y exponerlas vía HTTP en formato JSON.",
+    technologies: ["Node.js", "Express", "Axios", "Cheerio", "Vercel", "dotenv"],
+    demoUrl: "https://bcv-api-alpha.vercel.app/",
+    icon: <Server className="text-dark-cyan" size={32} />,
+    highlights: [
+      "Endpoint /bcv con cache y TTL dinámico según horas típicas de actualización",
+      "Endpoint /dolar con múltiples fuentes y fallback automático a BCV",
+      "Endpoint /rates que agrega BCV + dólar en una sola llamada",
+      "UI simple en / (HTML estático) consumiendo /bcv",
+      "Listo para Vercel con Function /api/index.js y rewrites"
     ]
   },
   {

@@ -13,6 +13,19 @@ interface ExperienceItem {
 
 const experiences: ExperienceItem[] = [
   {
+    title: "Founder & Full Stack Developer (Proyecto Personal)",
+    company: "Mi emprendimiento",
+    location: "Remote",
+    period: "27/01/2026 - Presente",
+    achievements: [
+      "Diseñé y construí ListoPedido: catálogos digitales multi-tienda con carrito y pedidos vía WhatsApp",
+      "Implementé dashboard para vendedores con gestión de productos, pedidos y configuración de tienda",
+      "Integré soporte de precios en USD/VES usando la tasa BCV con cache",
+      "Desarrollé BCV-API (rates-api) en Node.js/Express para consultar tasas del BCV y exponerlas por HTTP",
+      "Preparé despliegue en Vercel con Function + rewrites para operar como servicio de soporte del producto"
+    ]
+  },
+  {
     title: "Desarrollador Full Stack & Arquitecto de Software",
     company: "Pingüino Digital",
     location: "Remote",

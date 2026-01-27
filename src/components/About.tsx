@@ -40,9 +40,11 @@ export default function About() {
               </p>
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
                 {[
-                  'React', 'Vue.js 3', 'Next.js', 'TypeScript', 'Node.js', 'Python',
-                  'Pinia', 'Tailwind CSS', 'PostgreSQL', 'MySQL', 'WebSockets', 'Playwright',
-                  'Express', 'Flask', 'Docker', 'MongoDB'
+                  'React', 'Vue.js 3', 'Next.js (App Router)', 'TypeScript', 'Node.js', 'Python',
+                  'Pinia', 'Zustand', 'Tailwind CSS', 'shadcn/ui', 'PostgreSQL', 'MySQL',
+                  'Supabase', 'Zod', 'WebSockets', 'Playwright',
+                  'Express', 'Axios', 'Cheerio', 'dotenv', 'Vercel',
+                  'Flask', 'Docker', 'MongoDB'
                 ].map((tech) => (
                   <div
                     key={tech}
