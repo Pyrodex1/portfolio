@@ -42,7 +42,9 @@ export default function About() {
                 {[
                   'React', 'Vue.js 3', 'Next.js (App Router)', 'TypeScript', 'Node.js', 'Python',
                   'Pinia', 'Zustand', 'Tailwind CSS', 'shadcn/ui', 'PostgreSQL', 'MySQL',
-                  'Supabase', 'Zod', 'WebSockets', 'Playwright',
+                  'Supabase', 'Supabase Auth', 'Supabase Storage', 'Supabase Edge Functions',
+                  'Zod', 'WebSockets', 'Playwright',
+                  'Stripe', 'Shippo',
                   'Express', 'Axios', 'Cheerio', 'dotenv', 'Vercel',
                   'Flask', 'Docker', 'MongoDB'
                 ].map((tech) => (

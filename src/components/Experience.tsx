@@ -26,6 +26,19 @@ const experiences: ExperienceItem[] = [
     ]
   },
   {
+    title: "Full Stack Developer",
+    company: "ndsbeautyy",
+    location: "Remote",
+    period: "2026 - Presente",
+    achievements: [
+      "Desarrollé e-commerce MVP minimalista con storefront, auth y panel admin (Vue 3 + Vite)",
+      "Implementé backend en Supabase (Postgres, Auth, Storage) con RLS y control de acceso admin via RPC is_admin()",
+      "Integré pagos con Stripe Checkout y webhook en Supabase Edge Functions para registrar y actualizar orders/payments",
+      "Implementé cotización de shipping en tiempo real con Shippo, seleccionando opción más barata y una express si existe",
+      "Construí admin interno para CRUD de productos e imágenes con subida multi-imagen y recorte/preview antes de subir"
+    ]
+  },
+  {
     title: "Desarrollador Full Stack & Arquitecto de Software",
     company: "Pingüino Digital",
     location: "Remote",
@@ -84,7 +97,7 @@ export default function Experience() {
         </div>
         
         <div className={`overflow-hidden transition-all duration-700 ease-in-out ${
-          isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'
+          isExpanded ? 'max-h-[9999px] opacity-100' : 'max-h-0 opacity-0'
         }`}>
           <div className="relative">
             {/* Timeline Line */}

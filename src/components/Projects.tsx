@@ -1,6 +1,6 @@
 'use client'
 
-import { ExternalLink, Github, Truck, GraduationCap, Gamepad2, ClipboardList, Linkedin, Mail, Zap, MessageCircle, Server } from 'lucide-react'
+import { ExternalLink, Github, Truck, GraduationCap, Gamepad2, ClipboardList, Linkedin, Mail, Zap, MessageCircle, Server, ShoppingBag } from 'lucide-react'
 import { useState } from 'react'
 
 interface Project {
@@ -41,7 +41,21 @@ const projects: Project[] = [
     ]
   },
   {
-    title: "E-Commerce Catalog",
+    title: "ndsbeautyy E-commerce",
+    description: "E-commerce MVP minimalista con storefront, auth y panel admin, integrando pagos con Stripe y envíos con Shippo sobre Supabase.",
+    technologies: ["Vue 3", "Vite", "Vue Router", "Supabase", "PostgreSQL", "Stripe", "Shippo"],
+    demoUrl: "https://www.ndsbeautyy.com/",
+    icon: <ShoppingBag className="text-dark-cyan" size={32} />,
+    highlights: [
+      "Storefront + Auth + Admin en Vue 3 (Vite) con flujo de checkout",
+      "Backend en Supabase (Postgres, Auth, Storage) con RLS y roles admin via RPC",
+      "Stripe Checkout + webhook con Edge Functions para registrar y actualizar orders/payments",
+      "Cotización de shipping en tiempo real con Shippo, seleccionando opción más barata y express si existe",
+      "Admin interno para CRUD de productos e imágenes (multi-imagen + recorte/preview antes de subir)"
+    ]
+  },
+  {
+    title: "E-Commerce Catalog Demo",
     description: "Catálogo e-commerce completo construido con Vue.js 3 y TypeScript. para demostracion de habilidades frontend con gestión de estado moderna y UX optimizada.",
     technologies: ["Vue.js 3", "TypeScript", "Pinia", "Tailwind CSS", "Vite", "Vue Router"],
     demoUrl: "https://ecommerce-frontend-phi-eight.vercel.app/",
