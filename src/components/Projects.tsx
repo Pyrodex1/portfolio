@@ -28,20 +28,20 @@ const projects: Project[] = [
     ]
   },
   {
-    title: "RDPM2123 Logistics & Learning Platform",
-    description: "Plataforma web end-to-end que integra gestión de envíos internacionales y un sistema de e-learning completo para capacitaciones.",
-    technologies: ["React", "Next.js", "Node.js", "PostgreSQL", "Express", "Playwright", "Docker"],
-    demoUrl: "https://rdpm2123.com",
+    title: "RDPM 2123 INTERNACIONAL C.A.",
+    description: "Sitio web corporativo con Next.js 14 y TypeScript que presenta servicios de logística internacional y agenciamiento aduanal, con formulario de contacto integrado a WhatsApp.",
+    technologies: ["Next.js 14", "TypeScript", "TailwindCSS", "Framer Motion", "Lucide React"],
+    demoUrl: "https://rdpm.vercel.app/",
     icon: <Truck className="text-dark-cyan" size={32} />,
     highlights: [
-      "Sistema de tracking en tiempo real para envíos internacionales",
-      "Plataforma LMS con certificaciones y progreso de estudiantes",
-      "API RESTful robusta con validación completa",
-      "Cobertura de pruebas del 95% con Playwright"
+      "Landing corporativa con navegación por anclajes y scroll suave",
+      "Formulario de contacto con validación en tiempo real e integración directa a WhatsApp",
+      "Diseño responsive con sistema de colores personalizados y animaciones con Framer Motion",
+      "SEO optimizado y listo para producción con metadatos y estructura semántica"
     ]
   },
   {
-    title: "ndsbeautyy E-commerce",
+    title: "ndsbeautyy",
     description: "E-commerce MVP minimalista con storefront, auth y panel admin, integrando pagos con Stripe y envíos con Shippo sobre Supabase.",
     technologies: ["Vue 3", "Vite", "Vue Router", "Supabase", "PostgreSQL", "Stripe", "Shippo"],
     demoUrl: "https://www.ndsbeautyy.com/",

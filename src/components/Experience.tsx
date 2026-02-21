@@ -57,10 +57,11 @@ const experiences: ExperienceItem[] = [
     location: "Remote",
     period: "2022 - Presente",
     achievements: [
-      "Desarrollé plataforma web end-to-end integrando gestión de envíos y sistema e-learning",
-      "Implementé sistema de tracking en tiempo real para envíos internacionales",
-      "Construí plataforma LMS con certificaciones y seguimiento de progreso de estudiantes",
-      "Logré 95% de cobertura de pruebas con Playwright garantizando robustez del sistema"
+      "Desarrollé landing corporativa con Next.js 14 y TypeScript para servicios de logística internacional y agenciamiento aduanal",
+      "Implementé navegación por anclajes con scroll suave y header sticky con backdrop blur",
+      "Construí formulario de contacto con validación en tiempo real e integración directa a WhatsApp",
+      "Diseñé sistema de colores personalizados y animaciones con Framer Motion y TailwindCSS",
+      "Optimicé SEO y estructura semántica para producción con metadatos y accesibilidad"
     ]
   },
   {
