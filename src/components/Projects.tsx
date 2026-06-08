@@ -99,15 +99,15 @@ const projects: Project[] = [
   {
     title: "BCV-API (rates-api)",
     description: "API en Node.js + Express para consultar tasas oficiales del BCV y exponerlas vía HTTP en formato JSON.",
-    technologies: ["Node.js", "Express", "Axios", "Cheerio", "Vercel", "dotenv"],
-    demoUrl: "https://bcv-api-alpha.vercel.app/",
+    technologies: ["Node.js", "Express", "Axios", "Cheerio", "Vercel (actualmente en Railway)", "dotenv"],
+    demoUrl: "https://bcv-api-production-6a03.up.railway.app/",
     icon: <Server className="text-dark-cyan" size={32} />,
     highlights: [
       "Endpoint /bcv con cache y TTL dinámico según horas típicas de actualización",
       "Endpoint /dolar con múltiples fuentes y fallback automático a BCV",
       "Endpoint /rates que agrega BCV + dólar en una sola llamada",
       "UI simple en / (HTML estático) consumiendo /bcv",
-      "Listo para Vercel con Function /api/index.js y rewrites"
+      "Listo para Vercel, (migrado actualmente a Railway)"
     ]
   },
   {
